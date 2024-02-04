@@ -1,0 +1,53 @@
+.wrapper{
+    width: 500px;
+    height: 300px;
+    margin: 40px auto;
+    border-radius: 30px;
+    padding: 30px;
+    border: 2px solid silver;
+}
+
+.card-wrappe{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.card-wrappe .card-wrappe--titil{
+    text-align: center;
+    color: red;
+}
+
+.card--tim--titil{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.card--btn--wrapper{
+    margin: 50px auto ;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+.card--btn{
+    border: none;
+    background: rgb(49, 49, 247);
+    padding: 13px 35px;
+    color: wheat;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 500;
+    transition: all .2s linear;
+}
+
+.card--btn:hover{
+    background: rgb(1, 1, 222);
+    cursor: pointer;
+    transition: all .2s linear;
+}
