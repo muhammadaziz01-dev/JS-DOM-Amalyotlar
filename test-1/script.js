@@ -26,8 +26,6 @@ btn1.addEventListener('click' , ()=>{
         },100)
     })
 
-
-
 } )
 
 
